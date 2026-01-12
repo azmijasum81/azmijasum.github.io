@@ -1,102 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Azmi Jasum</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p>Full Stack Developer | Software Engineer</p>
+            <div class="contact-info">
+                <a href="mailto:your.email@example.com">📧 your.email@example.com</a>
+                <a href="https://github.com/yourusername" target="_blank">🔗 GitHub</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">💼 LinkedIn</a>
+                <a href="tel:+1234567890">📞 +1 (234) 567-890</a>
+            </div>
+        </header>
 
-<header class="hero">
-  <div class="hero-left">
-    <h1>Azmi Jasum</h1>
-    <p>Junior Business Analyst | IT Operations Analyst | Software Tester</p>
-  </div>
+        <section class="section">
+            <h2>About Me</h2>
+            <p class="about">
+                Passionate software developer with X years of experience building scalable web applications. 
+                Specialized in modern JavaScript frameworks and cloud technologies. Strong problem-solver with 
+                a track record of delivering high-quality solutions. Always eager to learn new technologies 
+                and contribute to innovative projects.
+            </p>
+        </section>
 
-  <nav class="hero-nav">
-    <a href="#">Home</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Blog</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+        <section class="section">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <div class="item-header">
+                    <div>
+                        <div class="item-title">Senior Software Engineer</div>
+                        <div class="item-subtitle">Company Name</div>
+                    </div>
+                    <div class="item-date">Jan 2022 - Present</div>
+                </div>
+                <div class="item-description">
+                    <ul>
+                        <li>Led development of microservices architecture serving 1M+ daily active users</li>
+                        <li>Improved application performance by 40% through code optimization and caching strategies</li>
+                        <li>Mentored junior developers and conducted code reviews</li>
+                        <li>Implemented CI/CD pipelines reducing deployment time by 60%</li>
+                    </ul>
+                </div>
+            </div>
 
-<main>
-  <section class="resume-hero">
-  <img src="images/profile.jpg" alt="Azmi Jasum" class="profile-pic">
+            <div class="experience-item">
+                <div class="item-header">
+                    <div>
+                        <div class="item-title">Software Developer</div>
+                        <div class="item-subtitle">Previous Company</div>
+                    </div>
+                    <div class="item-date">Jun 2020 - Dec 2021</div>
+                </div>
+                <div class="item-description">
+                    <ul>
+                        <li>Developed and maintained RESTful APIs using Node.js and Express</li>
+                        <li>Built responsive front-end applications with React and TypeScript</li>
+                        <li>Collaborated with cross-functional teams in Agile environment</li>
+                        <li>Participated in architectural decisions and technical planning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-  <div class="resume-hero-text">
-    <h1>Azmi Jasum</h1>
-    <h2>Junior Data Analyst</h2>
-    <p>
-      Microsoft 365 Automation | Power BI | Excel | SQL
-    </p>
-  </div>
-</section>
+        <section class="section">
+            <h2>Projects</h2>
+            
+            <div class="project-item">
+                <div class="item-header">
+                    <div class="item-title">E-Commerce Platform</div>
+                </div>
+                <div class="item-description">
+                    A full-stack e-commerce solution with real-time inventory management, payment integration, 
+                    and advanced search functionality. Built with React, Node.js, MongoDB, and Stripe API.
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/yourusername/project" target="_blank">View Code →</a>
+                    <a href="https://demo.example.com" target="_blank">Live Demo →</a>
+                </div>
+            </div>
 
-  <section class="resume">
-  <h2>RESUME</h2>
-  <div class="divider"></div>
+            <div class="project-item">
+                <div class="item-header">
+                    <div class="item-title">Task Management App</div>
+                </div>
+                <div class="item-description">
+                    Collaborative task management application with real-time updates using WebSockets. 
+                    Features include drag-and-drop interface, team collaboration, and progress tracking.
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/yourusername/project2" target="_blank">View Code →</a>
+                    <a href="https://demo2.example.com" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+        </section>
 
-  <div class="resume-block">
-    <h3>Summary</h3>
-    <p>
-      Junior Data Analyst with 3+ years of experience in IT operations, testing, and business support, transitioning into data and process automation. Experienced in designing a warranty tracker using Microsoft Forms, Power Automate, and SharePoint / Microsoft Lists to streamline data collection, tracking, and reporting. Strong background in data validation, reporting, and stakeholder coordination, with hands-on experience using Excel, Power BI, and Microsoft 365 tools. Proven ability to translate business needs into structured data solutions and actionable insights.
-    </p>
-  </div>
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Tailwind</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <div class="resume-block">
-    <h3>Core Skills</h3>
-
-    <ul>
-      <li><strong>Data:</strong> Excel, Power Query, Power BI, SQL</li>
-      <li><strong>Business:</strong> KPI tracking, reporting, analysis</li>
-      <li><strong>Tools:</strong> Microsoft 365, GitHub</li>
-    </ul>
-  </div>
-
-  <div class="resume-block">
-    <h3>Projects</h3>
-
-    <p><strong>New Warranty Tracker - Microsoft Form, Microsoft List, Power Automate</strong></p>
-    <ul>
-      <li>Designed and deployed a rider data capture form using Microsoft Forms.</li>
-      <li>Integrated Microsoft Forms with Microsoft Lists using Power Automate to automate data flow.</li>
-      <li>Stored and maintained structured rider data in Microsoft Lists for tracking and reporting.</li>
-      <li>Automated data archiving to a SharePoint site and generated downloadable backups using Winddos Power Shell script </li>
-    </ul>
-  <div class="resume-block">
-    <h3>Experience</h3>
-    <p>
-      <strong>Junior Business Analyst</strong><br>
-      Internship / Freelance / Project-based
-    </p>
-    <ul>
-      <li>Prepared dashboards and reports</li>
-      <li>Supported data analysis tasks</li>
-    </ul>
-  </div>
-
-  <div class="resume-block">
-    <h3>Education</h3>
-    <p>
-      Bachelor of Computer Science ( Software Engineering) <br>
-      Universiti Malaysia Terengganu
-    </p>
-  </div>
-
-  <div class="resume-block">
-    <h3>Links</h3>
-    <p>
-      GitHub: github.com/username<br>
-      Portfolio: username.github.io<br>
-      LinkedIn: linkedin.com/in/username
-    </p>
-  </div>
-</section>
-
-  </section>
-</main>
-
+        <section class="section">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <div class="item-header">
+                    <div>
+                        <div class="item-title">Bachelor of Science in Computer Science</div>
+                        <div class="item-subtitle">University Name</div>
+                    </div>
+                    <div class="item-date">2016 - 2020</div>
+                </div>
+                <div class="item-description">
+                    GPA: 3.8/4.0 | Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
