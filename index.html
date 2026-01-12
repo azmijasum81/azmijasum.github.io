@@ -1,10 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Azmi Jasum | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
 <header class="hero">
-  <div class="hero-text">
+  <div class="hero-left">
     <h1>Azmi Jasum</h1>
-    <h2>junior business analyst</h2>
+    <p>junior business analyst</p>
   </div>
 
-  <nav>
+  <nav class="hero-nav">
     <a href="#">Home</a>
     <a href="#">Portfolio</a>
     <a href="#">Blog</a>
@@ -12,27 +21,39 @@
   </nav>
 </header>
 
-<section class="portfolio">
-  <h2>PORTFOLIO</h2>
+<main>
+  <section class="portfolio">
+    <h2>PORTFOLIO</h2>
+    <div class="divider"></div>
 
-  <div class="filters">
-    <button>Show all</button>
-    <button>data viz</button>
-    <button>dashboards</button>
-    <button>automation</button>
-  </div>
-
-  <div class="grid">
-    <div class="card">
-      <img src="images/project1.png">
-      <h3>Sales Dashboard</h3>
-      <p>data viz</p>
+    <div class="filters">
+      <button class="active">Show all</button>
+      <button>data viz</button>
+      <button>dashboards</button>
+      <button>automation</button>
     </div>
 
-    <div class="card">
-      <img src="images/project2.png">
-      <h3>Excel Automation</h3>
-      <p>automation</p>
+    <div class="grid">
+      <div class="card">
+        <img src="images/project1.png" alt="Sales Dashboard">
+        <h3>Sales Dashboard</h3>
+        <span>data viz</span>
+      </div>
+
+      <div class="card">
+        <img src="images/project2.png" alt="Excel Automation">
+        <h3>Excel Automation</h3>
+        <span>automation</span>
+      </div>
+
+      <div class="card">
+        <img src="images/project3.png" alt="KPI Report">
+        <h3>KPI Report</h3>
+        <span>dashboards</span>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>
+
+</body>
+</html>
